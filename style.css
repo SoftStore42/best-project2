@@ -1,0 +1,312 @@
+|*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+::before, ::after{
+    box-sizing: border-box;  
+}
+.info{
+    background-image: url(img/Rectangle1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 900px;
+    font-size: 16px;
+}
+.Company{
+    line-height: 41.6px;
+    font-size: 32px;
+}
+header{
+    width: 100vw;
+    height: 119px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header>p{
+    font-size: 32px;
+    color: white;
+    margin-left: 200px;
+}
+nav{
+    color: white;
+    font-size: 16px;
+    width: 430px;
+    height: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 330px;
+}
+.krug{
+    right: 38px;
+    left: 607px;
+}
+.text{
+    height: 375px;
+    margin-top: 200px;
+    margin-left: 200px;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.text>h1{
+    color: white;
+    font-size: 96px;
+    line-height: 116.18px;
+}
+.text>p{
+    display: flex;
+    color: white;
+    font-size: 16px;
+    margin-top: -50px;
+}
+.button{
+    display: flex;
+    width: 180px;
+    height: 60px;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 17px;
+    margin-top: 50px;
+    cursor: pointer;
+}
+main{
+    height: 538px;
+    background-color: rgb(255, 255, 255);
+    width: 100vw;
+    padding: 190px 200px;
+    box-sizing: border-box;
+}
+.static{
+    height: 538px;
+    background-color: white;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.static_number{
+    width: 210px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    height: 100%;
+    margin-top: -70px;
+}
+.static_desk{
+    width: 570px;
+    margin-top: -50px;
+}
+.static_desk>h2{
+    width: 570px;
+    height: 310px;
+    top: 1090px;
+}
+.static_desk>p{
+    width: 570px;
+    height: 168px;
+}
+.one{
+    font-size: 64px;
+    line-height: 89.6px;
+}
+.two{
+    margin-top: -83px;
+    font-size: 16px;
+}
+.static_desk>h2{
+    font-size: 44px;
+    line-height: 61.6px;
+    height: 51%;
+}
+.video{
+    width: 100%;
+}
+.grid{
+    margin-top: 190px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr 2fr;
+    row-gap: 12%;
+    column-gap: 7%;
+    height: 1140px;
+    box-sizing: border-box;
+    width: 82vw;
+}
+.Et{
+    font-size: 24px;
+    width: 570px;
+    height: 400px;
+    margin-top: 50px;
+}
+.ettext{
+    color: black;
+    font-size: 16px;
+}
+.buttontwo{
+    width: 180px;
+    height: 60px;
+    font-size: 17px;
+    background-color: black;
+    color: white;
+    margin-top: 30px;
+    cursor: pointer;
+}
+.foto{
+    height: 495px;
+}
+.etttext{
+        color: black;
+        font-size: 16px;
+        margin-top: -10px;
+}
+.etedio{
+    font-size: 24px;
+    color: #838383;
+}
+.fototwo{
+    height: 495px;
+}
+.ettwo{
+    width: 570px;
+    height: 400px;
+    font-size: 24px;
+}
+.ettexttwo{
+    color: #838383;
+    margin-top: 89px;
+}
+.text3{
+    font-size: 16px;
+}
+.text4{
+    font-size: 16px;
+    margin-top: -15px;
+}
+.buttontree{
+    width: 180px;
+    height: 60px;
+    font-size: 17px;
+    background-color: black;
+    color: white;
+    margin-top: 30px;
+    cursor: pointer;
+}
+.Qualite{
+    width: 820px;
+    height: 506px;
+    margin-top: 190px;
+}
+.Quoute{
+    width: 56px;
+    height: 24px;
+    font-size: 16px;
+    color: #838383;
+}
+.text5{
+    font-size: 36px;
+    line-height: 54px;
+    margin-top: 50px;
+}
+.Qualite>p>span{
+    color: #838383;
+}
+.text7{
+    margin-top: -5px;
+}
+.foto2{
+    width: 100vw;
+    margin-left: -200px;
+    margin-top: 190px;
+}
+.Braning{
+    width: 100%;
+    height: 568px;
+    margin-top: 190px;
+}
+.city{
+    font-size: 32px;
+    display: flex;
+}
+.dima{
+    border-top: 1px solid #838383;
+    display: flex;
+    justify-content: space-between;
+    align-items: center
+}
+.div{
+    display: flex;
+}
+.spanu{
+    color: #838383;
+    width: 570px;
+}
+.futter{
+    width: 100vw;
+    height: 400px;
+    margin-left: -200px;
+    background-color: #1D1D1F;
+}
+.Company2{
+    font-size: 32px;
+    line-height:  41.6px;
+    color: white;
+    padding: 90px 200px;
+}
+.text8{
+    color: white;
+    font-size: 32px;
+    line-height:  41.6px;    
+    margin-top: -160px;
+    margin-left: 1315px;
+}
+.Dor{
+    color: #838383;
+    font-size: 16px;
+    margin-left: 200px;
+    margin-top: -18px;
+}
+.face{
+    margin-left: 200px;
+    margin-top: 15px;
+}
+.Teleg{
+    margin-left: 20px;
+    margin-top: 15px;
+}
+.Google{
+    margin-left: 20px;
+    margin-top: 15px;
+}
+.Email{
+    display: flex;
+    width: 570px;
+    height: 44px;
+    color: #838383;
+    justify-content: space-between;
+    border-bottom: 1px solid #838383;
+    margin-top: -80px;
+    margin-left: 1315px;
+}
+.grid_width{
+    width: 400px;
+}
+@media(max-width: 1800px){
+   .grid_width{
+        height: 200px;
+    }
+    .et{
+        width:100%;
+    }
+}
+@media(max-width: 1280px){
+    nav{
+        display: none;
+    }
+    grid{
+        height: 60%;
+    }
+ 
+}
